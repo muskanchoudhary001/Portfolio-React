@@ -1,0 +1,50 @@
+import project1 from "../assets/projects/project-1.jpg";
+import project2 from "../assets/projects/project-2.jpg";
+import project3 from "../assets/projects/project-3.jpg";
+ 
+
+export const HERO_CONTENT = `Welcome to my portfolio! I am a recent BTech graduate with a strong passion for frontend development and a keen interest in React. As a fresher, I am excited to dive into the tech world, leveraging my knowledge to create dynamic and responsive web applications.`;
+
+export const ABOUT_TEXT = `I am a dedicated and versatile frontend developer with a passion for creating efficient and user-friendly web applications. As a fresher, I'm eager to bring innovative ideas to life through dynamic and responsive web applications`;
+
+export const EXPERIENCES = [
+  {
+    year: "Sept 2023 - Jan 2024",
+    role: "Intern- Ecommerce Developer",
+    company: "Cnetric Global Inc.",
+    description: `Implemented MACH architecture principles to develop B2C and B2B e-commerce websites using Spryker Ecommerce tool during internship, enhancing understanding of modern e-commerce frameworks.Leveraged Postman to efficiently fetch APIs for various tasks, including uploading product catalogues and managing data interactions. `,
+    technologies: ["Spryker", "Postman", "MACH Architecture", "B2B Software", "Composable Commerce"],
+  },
+];
+
+export const PROJECTS = [
+  {
+    title: "E-Commerce Website",
+    image: project1,
+    description:
+      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+    technologies: ["Spryker", "B2B Commerce", "MACH Architecture"],
+  },
+  {
+    title: "Portfolio Website",
+    image: project2,
+    description:
+      "A personal portfolio website showcasing projects, skills, and contact information.",
+    technologies: ["React", "Framer Motion", "tailwind CSS"],
+  },
+  {
+    title: "Hangman Game",
+    image: project3,
+    description:
+      "Developed a responsive Hangman game utilizing HTML, CSS, and JavaScript, showcasing proficient front-end development skills. Implemented functionality allowing users to guess letters of a randomly generated word within a limited number of attempts, enhancing user engagement and interaction. Integrated a dynamic hangman illustration feature, progressively revealing incorrect guesses on the gallows, demonstrating creativity and attention to detail in design implementation.",
+    technologies: ["HTML", "CSS", "Javascript"],
+  },
+
+
+];
+
+export const CONTACT = {
+  linkeIn: "https://www.linkedin.com/in/muskan-choudhary-789759175/ ",
+  phoneNo: "+91 7737104559 ",
+  email: "muskanchoudhary1303@gmail.com",
+};
