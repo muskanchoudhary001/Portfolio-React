@@ -1,11 +1,12 @@
 import { motion } from 'framer-motion';
 import { SiPostman, SiMongodb, SiCplusplus } from "react-icons/si";
 import { PiFigmaLogoFill } from "react-icons/pi";
-import { RiReactjsLine } from 'react-icons/ri';
+import { RiReactjsLine, RiTailwindCssFill } from 'react-icons/ri';
 import { FaGithub, FaHtml5, FaCss3Alt } from "react-icons/fa";
 import { VscVscode } from "react-icons/vsc";
 import { IoLogoJavascript } from "react-icons/io";
 import { DiMysql } from "react-icons/di";
+
 
 const iconVarients = duration => ({
   initial: { y: -10 },
@@ -68,6 +69,14 @@ const Technologies = () => {
           className="flex justify-center items-center rounded-lg border border-neutral-800 p-4"
         >
           <SiPostman className="text-5xl text-orange-400" />
+        </motion.div>
+        <motion.div
+          variants={iconVarients(4)}
+          initial="initial"
+          animate="animate"
+          className="flex justify-center items-center rounded-lg border border-neutral-800 p-4"
+        >
+          <RiTailwindCssFill  className="text-5xl text-blue-300" />
         </motion.div>
         <motion.div
           variants={iconVarients(4)}
