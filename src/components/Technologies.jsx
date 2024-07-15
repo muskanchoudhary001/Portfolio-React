@@ -1,8 +1,10 @@
 import { motion } from 'framer-motion'
-import { DiRedis } from 'react-icons/di'
-import { FaNodeJs } from 'react-icons/fa'
+import { SiPostman } from "react-icons/si";
+import { PiFigmaLogoFill } from "react-icons/pi";
 import { RiReactjsLine } from 'react-icons/ri'
 import { SiMongodb } from 'react-icons/si'
+import { FaGithub } from "react-icons/fa";
+import { VscVscode } from "react-icons/vsc";
 
 const iconVarients = duration => ({
   initial: { y: -10 },
@@ -26,7 +28,7 @@ const Technologies = () => {
         transition={{ duration: 1.5 }}
         className="my-20 text-center text-4xl "
       >
-        Technologies
+        Tools & Technologies
       </motion.h2>
       <motion.div
         whileInView={{ opacity: 1, x: 0 }}
@@ -64,7 +66,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4 "
         >
-          <DiRedis className="text-7xl text-red-400" />
+          <SiPostman className="text-7xl text-orange-400" />
         </motion.div>
         <motion.div
           varients={iconVarients(4)}
@@ -72,7 +74,23 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4 "
         >
-          <FaNodeJs className="text-7xl text-green-400" />
+          <PiFigmaLogoFill className="text-7xl text-pink-600" />
+        </motion.div>
+        <motion.div
+          varients={iconVarients(2.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4 "
+        >
+          <FaGithub className="text-7xl text-white" />
+        </motion.div>
+        <motion.div
+          varients={iconVarients(2.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4 "
+        >
+          <VscVscode className="text-7xl text-blue-700" />
         </motion.div>
       </motion.div>
     </div>

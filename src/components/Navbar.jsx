@@ -1,5 +1,7 @@
-import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa'
-import logo from '../assets/muskanLogo.png'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { BiLogoGmail } from "react-icons/bi"
+import { IoDocumentText } from "react-icons/io5";
+import logo from '../assets/Logo.png'
 const Navbar = () => {
   return (
     <nav className="mb-20 flex items-center justify-between py-6">
@@ -9,7 +11,8 @@ const Navbar = () => {
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
         <FaLinkedin />
         <FaGithub />
-        <FaInstagram />
+        <BiLogoGmail />
+        <IoDocumentText />
       </div>
     </nav>
   )
