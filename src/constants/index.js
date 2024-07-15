@@ -33,6 +33,7 @@ export const PROJECTS = [
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "Framer Motion", "tailwind CSS"],
      github: "https://github.com/muskanchoudhary001/Portfolio-React",
+    link: "https://portfolio-six-xi-51.vercel.app/",
   },
   {
     title: "Hangman Game",
@@ -41,6 +42,7 @@ export const PROJECTS = [
       "Developed a responsive Hangman game utilizing HTML, CSS, and JavaScript, showcasing proficient front-end development skills. Implemented functionality allowing users to guess letters of a randomly generated word within a limited number of attempts, enhancing user engagement and interaction. Integrated a dynamic hangman illustration feature, progressively revealing incorrect guesses on the gallows, demonstrating creativity and attention to detail in design implementation.",
     technologies: ["HTML", "CSS", "Javascript"],
      github: "https://github.com/muskanchoudhary001/HangmanGame",
+    link: "https://hangman-games-lovat.vercel.app/",
   },
 
 
