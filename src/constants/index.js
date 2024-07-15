@@ -48,6 +48,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   linkedIn: "https://www.linkedin.com/in/muskan-choudhary-789759175/ ",
-  phoneNo: "+91 77371 045 59 ",
+  // phoneNo: "+91 77371 045 59 ",
   email: "muskanchoudhary1303@gmail.com",
 };
