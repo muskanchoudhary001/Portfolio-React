@@ -1,10 +1,11 @@
-import { motion } from 'framer-motion'
-import { SiPostman } from "react-icons/si";
+import { motion } from 'framer-motion';
+import { SiPostman, SiMongodb, SiCplusplus } from "react-icons/si";
 import { PiFigmaLogoFill } from "react-icons/pi";
-import { RiReactjsLine } from 'react-icons/ri'
-import { SiMongodb } from 'react-icons/si'
-import { FaGithub } from "react-icons/fa";
+import { RiReactjsLine } from 'react-icons/ri';
+import { FaGithub, FaHtml5, FaCss3Alt } from "react-icons/fa";
 import { VscVscode } from "react-icons/vsc";
+import { IoLogoJavascript } from "react-icons/io";
+import { DiMysql } from "react-icons/di";
 
 const iconVarients = duration => ({
   initial: { y: -10 },
@@ -21,80 +22,112 @@ const iconVarients = duration => ({
 
 const Technologies = () => {
   return (
-    <div className="border-b border-neutral-800 pb-24">
+    <div className="border-b border-neutral-800 pb-20">
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 1.5 }}
-        className="my-20 text-center text-4xl "
+        className="my-20 text-center text-4xl"
       >
-        Tools & Technologies
+        Tech Stack
       </motion.h2>
       <motion.div
         whileInView={{ opacity: 1, x: 0 }}
         initial={{ opacity: 0, x: -100 }}
         transition={{ duration: 1.5 }}
-        className="flex flex-wrap items-center justify-center gap-4"
+        className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
       >
         <motion.div
-          varients={iconVarients(2.5)}
+          variants={iconVarients(2.5)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4 "
+          className="flex justify-center items-center rounded-lg border border-neutral-800 p-4"
         >
-          <RiReactjsLine className="text-7xl text-cyan-400" />
-        </motion.div>
-        {/* <motion.div
-          varients={iconVarients(3)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4 "
-        >
-          <TbBrandNextjs className="text-7xl  " />
-        </motion.div> */}
-        <motion.div
-          varients={iconVarients(5)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4 "
-        >
-          <SiMongodb className="text-7xl text-green-400" />
+          <RiReactjsLine className="text-5xl text-cyan-400" />
         </motion.div>
         <motion.div
-          varients={iconVarients(6)}
+          variants={iconVarients(5)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4 "
+          className="flex justify-center items-center rounded-lg border border-neutral-800 p-4"
         >
-          <SiPostman className="text-7xl text-orange-400" />
+          <SiCplusplus className="text-5xl text-blue-500" />
         </motion.div>
         <motion.div
-          varients={iconVarients(4)}
+          variants={iconVarients(5)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4 "
+          className="flex justify-center items-center rounded-lg border border-neutral-800 p-4"
         >
-          <PiFigmaLogoFill className="text-7xl text-pink-600" />
+          <SiMongodb className="text-5xl text-green-400" />
         </motion.div>
         <motion.div
-          varients={iconVarients(2.5)}
+          variants={iconVarients(6)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4 "
+          className="flex justify-center items-center rounded-lg border border-neutral-800 p-4"
         >
-          <FaGithub className="text-7xl text-white" />
+          <SiPostman className="text-5xl text-orange-400" />
         </motion.div>
         <motion.div
-          varients={iconVarients(2.5)}
+          variants={iconVarients(4)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4 "
+          className="flex justify-center items-center rounded-lg border border-neutral-800 p-4"
         >
-          <VscVscode className="text-7xl text-blue-700" />
+          <PiFigmaLogoFill className="text-5xl text-pink-600" />
+        </motion.div>
+        <motion.div
+          variants={iconVarients(4)}
+          initial="initial"
+          animate="animate"
+          className="flex justify-center items-center rounded-lg border border-neutral-800 p-4"
+        >
+          <DiMysql className="text-5xl text-white-600" />
+        </motion.div>
+        <motion.div
+          variants={iconVarients(2.5)}
+          initial="initial"
+          animate="animate"
+          className="flex justify-center items-center rounded-lg border border-neutral-800 p-4"
+        >
+          <FaGithub className="text-5xl text-white" />
+        </motion.div>
+        <motion.div
+          variants={iconVarients(2.5)}
+          initial="initial"
+          animate="animate"
+          className="flex justify-center items-center rounded-lg border border-neutral-800 p-4"
+        >
+          <VscVscode className="text-5xl text-blue-700" />
+        </motion.div>
+        <motion.div
+          variants={iconVarients(2.5)}
+          initial="initial"
+          animate="animate"
+          className="flex justify-center items-center rounded-lg border border-neutral-800 p-4"
+        >
+          <IoLogoJavascript className="text-5xl text-yellow-300" />
+        </motion.div>
+        <motion.div
+          variants={iconVarients(2.5)}
+          initial="initial"
+          animate="animate"
+          className="flex justify-center items-center rounded-lg border border-neutral-800 p-4"
+        >
+          <FaHtml5 className="text-5xl text-red-500" />
+        </motion.div>
+        <motion.div
+          variants={iconVarients(2.5)}
+          initial="initial"
+          animate="animate"
+          className="flex justify-center items-center rounded-lg border border-neutral-800 p-4"
+        >
+          <FaCss3Alt className="text-5xl text-blue-500" />
         </motion.div>
       </motion.div>
     </div>
   )
 }
 
-export default Technologies
+export default Technologies;

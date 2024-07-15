@@ -31,14 +31,19 @@ const Projects = () => {
               initial={{ opacity: 0, x: 100 }}
               transition={{ duration: 1 }}
               className="w-full max-w-xl lg:w-3/4">
-              <h6 className="mb-2 font-semibold">{project.title}</h6>
+              <h6 className="mb-2 font-semibold"> {project.title}</h6>
               <p className="mb-4 text-neutral-400">{project.description}</p>
+              <div className="mb-4">
               {project.technologies.map((tech, index) => (
                 <span key={index} className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900"
                 >
                   {tech}
                 </span>
               ))}
+             </div> 
+             <a href={project.github} target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:underline">
+                View on GitHub
+              </a>
             </motion.div>
           </div>
         ))}

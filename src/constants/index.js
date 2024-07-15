@@ -10,48 +10,29 @@ export const ABOUT_TEXT = `I am a dedicated and versatile frontend developer wit
 export const EXPERIENCES = [
   {
     year: "Sept 2023 - Jan 2024",
-    role: "Intern- Ecommerce Developer",
-    company: "Cnetric Global Inc.",
+    role: "Intern Ecommerce Developer",
+    company: " Cnetric Global Inc.",
     description: `Implemented MACH architecture principles to develop B2C and B2B e-commerce websites using Spryker Ecommerce tool during internship, enhancing understanding of modern e-commerce frameworks.Leveraged Postman to efficiently fetch APIs for various tasks, including uploading product catalogues and managing data interactions. `,
     technologies: ["Spryker", "Postman", "MACH Architecture", "B2B Software", "Composable Commerce"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
   },
 ];
 
 export const PROJECTS = [
-  {
-    title: "E-Commerce Website",
-    image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["Spryker", "B2B Commerce", "MACH Architecture"],
-  },
+  // {
+  //   title: "E-Commerce Website",
+  //   image: project1,
+  //   description:
+  //     "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+  //   technologies: ["Spryker", "B2B Commerce", "MACH Architecture"],
+  //    github: "https://github.com/username/E-commerce",
+  // },
   {
     title: "Portfolio Website",
     image: project2,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "Framer Motion", "tailwind CSS"],
+     github: "https://github.com/muskanchoudhary001/Portfolio-React",
   },
   {
     title: "Hangman Game",
@@ -59,6 +40,7 @@ export const PROJECTS = [
     description:
       "Developed a responsive Hangman game utilizing HTML, CSS, and JavaScript, showcasing proficient front-end development skills. Implemented functionality allowing users to guess letters of a randomly generated word within a limited number of attempts, enhancing user engagement and interaction. Integrated a dynamic hangman illustration feature, progressively revealing incorrect guesses on the gallows, demonstrating creativity and attention to detail in design implementation.",
     technologies: ["HTML", "CSS", "Javascript"],
+     github: "https://github.com/muskanchoudhary001/HangmanGame",
   },
 
 

@@ -15,12 +15,12 @@ const Contact = () => {
                     initial={{ opacity: 0, x: 100 }}
                     transition={{ duration: 1 }}
                    className="my-4"></motion.p>
-                   <a href="#" className="border-b">{CONTACT.linkedIn}</a>
+                   <a href="https://www.linkedin.com/in/muskan-choudhary-789759175/" target="_blank" rel='noopener noreferrer' className="border-b">{CONTACT.linkedIn}</a>
                 <motion.p
                     whileInView={{ opacity: 1, x: 0 }}
                     initial={{ opacity: 0, x: 100 }}
                     transition={{ duration: 1 }} className="my-4">{CONTACT.phoneNo}</motion.p>
-                <a href=" #" className="border-b">{CONTACT.email}</a>
+                <a href="mailto:muskanchoudhary1303@gmail.com" className="border-b">{CONTACT.email}</a>
             </div>
         </div>
     )
