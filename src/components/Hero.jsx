@@ -42,7 +42,7 @@ const Hero = () => {
             transition={{ duration: 1, delay: 1.2 }}
             src={profilePic}
             alt="profilePic"
-            className="rounded-full w-48 h-48" // Added Tailwind classes for round image
+            className="rounded-full " // Added Tailwind classes for round image
           />
         </div>
       </div>
