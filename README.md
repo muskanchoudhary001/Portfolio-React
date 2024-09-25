@@ -36,7 +36,7 @@ To run this project locally:
 1. Clone the repository:
 
    bash
-   git clone https://github.com/your-username/your-portfolio-repo.git
+   git clone [[https://github.com/muskanchoudhary001/Portfolio-React.git](https://github.com/muskanchoudhary001/Portfolio-React)] 
    
 2. Install the dependencies:
 
