@@ -35,6 +35,29 @@ To run this project locally:
 
 1. Clone the repository:
 
-   ```bash
+   bash
    git clone https://github.com/your-username/your-portfolio-repo.git
+   
+2. Install the dependencies:
+
+  cd your-portfolio-repo
+  npm install
+
+3. Start the development server:
+
+    npm run dev
+
+    Open http://localhost:3000 to view it in the browser.
+
+🚀 Deployment
+
+This portfolio is deployed using Vercel. To deploy your own version:
+
+    Push your code to a GitHub repository.
+    Link the repository to your Vercel account.
+    Vercel will automatically build and deploy the site.
+
+🤝 Contributing
+
+If you'd like to contribute or have suggestions to improve this project, feel free to open an issue or submit a pull request!
 
