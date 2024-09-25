@@ -27,7 +27,7 @@ You can check out the live version of the portfolio here: [Live Demo](https://mu
 
 Check out this video demonstration of the website to see its features and animations in action:
 
-[![Watch the video](https://img.youtube.com/vi/your-demo-video-id/hqdefault.jpg)](https://youtu.be/your-demo-video-id)
+[![Watch the video]([https://youtu.be/your-demo-video-id](https://www.youtube.com/watch?v=TNr_ZJgYDCU))
 
 ## 📂 Project Setup
 
