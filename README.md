@@ -1,5 +1,3 @@
-# React + Vite
-
 # Portfolio Website
 
 Welcome to my personal portfolio website! This project is built using **React.js**, styled with **Tailwind CSS**, and enhanced with animations using the **Framer Motion** library. The app is bundled with **Vite** for fast development and optimized for deployment using **Vercel**.
