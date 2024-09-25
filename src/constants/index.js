@@ -33,7 +33,7 @@ export const PROJECTS = [
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "Framer Motion", "tailwind CSS"],
      github: "https://github.com/muskanchoudhary001/Portfolio-React",
-    link: "https://portfolio-six-xi-51.vercel.app/",
+    link: "https://muskanchoudhary.vercel.app/",
   },
   {
     title: "Hangman Game",
