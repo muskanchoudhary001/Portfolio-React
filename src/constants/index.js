@@ -1,6 +1,7 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
+import project4 from "../assets/projects/project-4.jpg";
 
 
 export const HERO_CONTENT = `Welcome to my portfolio! I am a recent BTech graduate with a strong passion for frontend development and a keen interest in React. As a fresher, I am excited to dive into the tech world, leveraging my knowledge to create dynamic and responsive web applications.`;
@@ -44,7 +45,14 @@ export const PROJECTS = [
      github: "https://github.com/muskanchoudhary001/HangmanGame",
     link: "https://hangman-games-lovat.vercel.app/",
   },
-
+  {
+    title: "Voice Enabled Note Application",
+    image: project4,
+    description:
+      "A web application that allows users to transcribe speech into text using voice commands. The app includes features such as start, stop, copy, and reset functions, providing a seamless way to take notes by speaking. It leverages Web Speech API for voice recognition.",
+    technologies: ["React", "CSS", "Web Speech API", "JavaScript"],
+    github: "https://github.com/muskanchoudhary001/Voice_Enabled_Note_Applicatiion",
+},
 
 ];
 
