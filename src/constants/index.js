@@ -52,6 +52,7 @@ export const PROJECTS = [
       "A web application that allows users to transcribe speech into text using voice commands. The app includes features such as start, stop, copy, and reset functions, providing a seamless way to take notes by speaking. It leverages Web Speech API for voice recognition.",
     technologies: ["React", "CSS", "Web Speech API", "JavaScript"],
     github: "https://github.com/muskanchoudhary001/Voice_Enabled_Note_Applicatiion",
+    link: "https://voice-enabled-note-applicatiion.vercel.app/",
 },
 
 ];
