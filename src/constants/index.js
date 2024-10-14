@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.jpg";
 
 
 export const HERO_CONTENT = `Welcome to my portfolio! I am a recent BTech graduate with a strong passion for frontend development and a keen interest in React. As a fresher, I am excited to dive into the tech world, leveraging my knowledge to create dynamic and responsive web applications.`;
@@ -54,6 +55,15 @@ export const PROJECTS = [
     github: "https://github.com/muskanchoudhary001/Voice_Enabled_Note_Applicatiion",
     link: "https://voice-enabled-note-applicatiion.vercel.app/",
 },
+{
+    title: "Expense Tracker",
+    image: project5, // Replace with the actual image name
+    description:
+      "A web application to track and manage expenses and income. It allows users to categorize transactions, provides an overview of financial data, and includes color-coded categories for better visualization. The app is built with React and includes functionalities for adding, deleting, and viewing transactions.",
+    technologies: ["React", "CSS", "JavaScript", "Context API"],
+    github: "https://github.com/muskanchoudhary001/Expense_Tracker",  
+    link: "https://expense-tracker-rose-pi.vercel.app/",  
+}
 
 ];
 
