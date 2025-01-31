@@ -44,7 +44,7 @@ export const PROJECTS = [
     description:
       "A responsive eCommerce frontend for clothing and accessories, built during my internship at Brainwave Matrix Solutions. Features include a modern grid layout, customizable components, newsletter subscription, and social media integration.",
     technologies: ["HTML","CSS","Javascript","font awsome icons"],
-     github: "https://github.com/muskanchoudhary001/ChicThreads.-The Ecommerce Store",
+     github: "https://github.com/muskanchoudhary001/ChicThreads.-The-Ecommerce-Store",
     link: "https://chic-threads-the-ecommerce-store.vercel.app/",
   },
   {
