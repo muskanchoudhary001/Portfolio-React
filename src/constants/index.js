@@ -21,14 +21,14 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
-  {
-    title: "E-Commerce Website",
-    image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["Spryker", "B2B Commerce", "MACH Architecture"],
-     github: "https://github.com/username/E-commerce",
-  },
+  // {
+  //   title: "E-Commerce Website",
+  //   image: project1,
+  //   description:
+  //     "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+  //   technologies: ["Spryker", "B2B Commerce", "MACH Architecture"],
+  //    github: "https://github.com/username/E-commerce",
+  // },
   {
     title: "Portfolio Website",
     image: project2,
@@ -37,15 +37,6 @@ export const PROJECTS = [
     technologies: ["React", "Framer Motion", "tailwind CSS"],
      github: "https://github.com/muskanchoudhary001/Portfolio-React",
     link: "https://muskanchoudhary.vercel.app/",
-  },
-   {
-    title: "ChicThreads.-The Ecommerce Store",
-    image: project6,
-    description:
-      "A responsive eCommerce frontend for clothing and accessories, built during my internship at Brainwave Matrix Solutions. Features include a modern grid layout, customizable components, newsletter subscription, and social media integration.",
-    technologies: ["HTML","CSS","Javascript","font awsome icons"],
-     github: "https://github.com/muskanchoudhary001/ChicThreads.-The-Ecommerce-Store",
-    link: "https://chic-threads-the-ecommerce-store.vercel.app/",
   },
   {
     title: "Hangman Game",
@@ -73,7 +64,16 @@ export const PROJECTS = [
     technologies: ["React", "CSS", "JavaScript", "Context API"],
     github: "https://github.com/muskanchoudhary001/Expense_Tracker",  
     link: "https://expense-tracker-rose-pi.vercel.app/",  
-}
+},
+ {
+    title: "ChicThreads.-The Ecommerce Store",
+    image: project6,
+    description:
+      "A responsive eCommerce frontend for clothing and accessories, built during my internship at Brainwave Matrix Solutions. Features include a modern grid layout, customizable components, newsletter subscription, and social media integration.",
+    technologies: ["HTML","CSS","Javascript","font awsome icons"],
+     github: "https://github.com/muskanchoudhary001/ChicThreads.-The-Ecommerce-Store",
+    link: "https://chic-threads-the-ecommerce-store.vercel.app/",
+  },
 
 ];
 
