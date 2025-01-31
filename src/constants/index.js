@@ -21,14 +21,14 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
-  // {
-  //   title: "E-Commerce Website",
-  //   image: project1,
-  //   description:
-  //     "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-  //   technologies: ["Spryker", "B2B Commerce", "MACH Architecture"],
-  //    github: "https://github.com/username/E-commerce",
-  // },
+  {
+    title: "E-Commerce Website",
+    image: project1,
+    description:
+      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+    technologies: ["Spryker", "B2B Commerce", "MACH Architecture"],
+     github: "https://github.com/username/E-commerce",
+  },
   {
     title: "Portfolio Website",
     image: project2,
