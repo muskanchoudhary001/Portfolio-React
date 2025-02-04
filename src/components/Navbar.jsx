@@ -19,7 +19,7 @@ const Navbar = () => {
         <a href="mailto:muskanchoudhary1303@gmail.com">
           <BiLogoGmail />
         </a>
-        <a href="https://drive.google.com/file/d/1Yk9JmDCYXv49DGlQoWeOlAg7edbQ7FlO/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+        <a href="" target="_blank" rel="noopener noreferrer">
           <IoDocumentText />
         </a>
       </div>

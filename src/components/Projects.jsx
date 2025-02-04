@@ -44,6 +44,16 @@ const Projects = () => {
              <a href={project.github} target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:underline">
                 View on GitHub
               </a>
+               {project.link && (
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="ml-4 text-blue-300 hover:underline"
+                >
+                  Visit Project
+                </a>
+              )}
             </motion.div>
           </div>
         ))}

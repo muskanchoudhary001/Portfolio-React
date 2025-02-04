@@ -2,6 +2,8 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.jpg";
+import project6 from "../assets/projects/project-6.png";
 
 
 export const HERO_CONTENT = `Welcome to my portfolio! I am a recent BTech graduate with a strong passion for frontend development and a keen interest in React. As a fresher, I am excited to dive into the tech world, leveraging my knowledge to create dynamic and responsive web applications.`;
@@ -34,6 +36,7 @@ export const PROJECTS = [
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "Framer Motion", "tailwind CSS"],
      github: "https://github.com/muskanchoudhary001/Portfolio-React",
+    link: "https://muskanchoudhary.vercel.app/",
   },
   {
     title: "Hangman Game",
@@ -42,6 +45,7 @@ export const PROJECTS = [
       "Developed a responsive Hangman game utilizing HTML, CSS, and JavaScript, showcasing proficient front-end development skills. Implemented functionality allowing users to guess letters of a randomly generated word within a limited number of attempts, enhancing user engagement and interaction. Integrated a dynamic hangman illustration feature, progressively revealing incorrect guesses on the gallows, demonstrating creativity and attention to detail in design implementation.",
     technologies: ["HTML", "CSS", "Javascript"],
      github: "https://github.com/muskanchoudhary001/HangmanGame",
+    link: "https://hangman-games-lovat.vercel.app/",
   },
   {
     title: "Voice Enabled Note Application",
@@ -50,8 +54,26 @@ export const PROJECTS = [
       "A web application that allows users to transcribe speech into text using voice commands. The app includes features such as start, stop, copy, and reset functions, providing a seamless way to take notes by speaking. It leverages Web Speech API for voice recognition.",
     technologies: ["React", "CSS", "Web Speech API", "JavaScript"],
     github: "https://github.com/muskanchoudhary001/Voice_Enabled_Note_Applicatiion",
+    link: "https://voice-enabled-note-applicatiion.vercel.app/",
 },
-
+{
+    title: "Expense Tracker",
+    image: project5, // Replace with the actual image name
+    description:
+      "A web application to track and manage expenses and income. It allows users to categorize transactions, provides an overview of financial data, and includes color-coded categories for better visualization. The app is built with React and includes functionalities for adding, deleting, and viewing transactions.",
+    technologies: ["React", "CSS", "JavaScript", "Context API"],
+    github: "https://github.com/muskanchoudhary001/Expense_Tracker",  
+    link: "https://expense-tracker-rose-pi.vercel.app/",  
+},
+ {
+    title: "ChicThreads.-The Ecommerce Store",
+    image: project6,
+    description:
+      "A responsive eCommerce frontend for clothing and accessories, built during my internship at Brainwave Matrix Solutions. Features include a modern grid layout, customizable components, newsletter subscription, and social media integration.",
+    technologies: ["HTML","CSS","Javascript","font awsome icons"],
+     github: "https://github.com/muskanchoudhary001/ChicThreads.-The-Ecommerce-Store",
+    link: "https://chic-threads-the-ecommerce-store.vercel.app/",
+  },
 
 ];
 
