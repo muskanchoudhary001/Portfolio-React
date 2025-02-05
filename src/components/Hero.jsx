@@ -1,60 +1,44 @@
+import { motion } from "framer-motion";
 import { HERO_CONTENT } from "../constants";
 import profilePic from "../assets/2.jpg";
-import { motion } from "framer-motion";
-
-const container = (delay) => ({
-  hidden: { x: -100, opacity: 0 },
-  visible: {
-    x: 0,
-    opacity: 1,
-    transition: { duration: 0.5, delay: delay },
-  }
-})
+import { FaGithub, FaLinkedin,FaEnvelope } from "react-icons/fa";
 
 const Hero = () => {
-  return <div className="border-b border-neutral-900 pb-4 lg:mb-35">
-    <div className="flex flex-wrap">
-      <div className="w-full lg:w-1/2">
-        <div className="flex flex-col items-center lg:items-start">
-        <motion.h1
-  variants={container(0)}
-  initial="hidden"
-  animate="visible"
-  className="pb-16 text-6xl font-normal tracking-tight lg:mt-16 lg:text-8xl">
-  Muskan Choudhary
-</motion.h1>
-
-
-
-
-
-          <motion.span
-            variants={container(0.5)}
-            initial="hidden"
-            animate="visible"
-            className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent">Frontend Developer</motion.span>
-          <motion.p variants={container(1)}
-            initial="hidden"
-            animate="visible" className="my-2 max-w-xl py-6 font-light tracking-tighter">
-            {HERO_CONTENT}
-          </motion.p>
-        </div>
-      </div>
-      <div className="w-full lg:w-1/2 lg:p-8">
-        <div className="flex justify-center">
-          < motion.img
-            initial={{ x: 100, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            transition={{ duration: 1, delay: 1.2 }}
+  return (
+    <section id="about" className="py-12 md:py-24 lg:py-12  text-white">
+      <div className="container px-4 md:px-6">
+        <div className="flex flex-col items-center justify-center space-y-4 text-center">
+          <motion.img
             src={profilePic}
-            alt="profilePic"
-            className="rounded-full w-70 h-100" // Added Tailwind classes for round image
+            alt="Profile Picture"
+            className="w-48 h-48 rounded-full"
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5 }}
           />
+          <div className="space-y-2">
+            <motion.h4 
+              initial={{ opacity: 0, y: -20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              className="text-xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl"
+            >
+              Hi, I'm Muskan Choudhary 👋
+            </motion.h4>
+            <motion.p 
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.7, delay: 0.2 }}
+              className="mx-auto max-w-[700px] text-gray-300 md:text-xl"
+            >
+              {HERO_CONTENT}
+            </motion.p>
+          </div>
+          
         </div>
       </div>
-    </div>
-  </div>
-
+    </section>
+  );
 };
 
 export default Hero;

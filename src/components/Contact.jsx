@@ -80,7 +80,7 @@ const Contact = () => {
             type="submit"
             className="text-white px-8 py-3 rounded-3xl"
             style={{
-              backgroundColor: '#335d75',
+              backgroundColor: '#1e2432',
               transition: 'transform 0.3s ease, background-color 0.3s ease',
               transform: 'scale(1)',
             }}

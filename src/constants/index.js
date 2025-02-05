@@ -6,7 +6,7 @@ import project5 from "../assets/projects/project-5.jpg";
 import project6 from "../assets/projects/project-6.png";
 
 
-export const HERO_CONTENT = `Welcome to my portfolio! I am a recent BTech graduate with a strong passion for frontend development and a keen interest in React. As a fresher, I am excited to dive into the tech world, leveraging my knowledge to create dynamic and responsive web applications.`;
+export const HERO_CONTENT = `Welcome to my portfolio! I'm a passionate Frontend Developer with experience in Next.js, React, and modern web technologies.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile frontend developer with a passion for creating efficient and user-friendly web applications. As a fresher, I'm eager to bring innovative ideas to life through dynamic and responsive web applications`;
 
