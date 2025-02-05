@@ -35,7 +35,7 @@ const Projects = () => {
               <p className="mb-4 text-neutral-400">{project.description}</p>
               <div className="mb-4">
               {project.technologies.map((tech, index) => (
-                <span key={index} className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900"
+                <span key={index} className="mr-2 rounded bg-neutral-800 px-2 py-1 text-sm font-medium text-yellow-600"
                 >
                   {tech}
                 </span>

@@ -21,7 +21,7 @@ const Experience = () => {
               transition={{ duration: 1 }}
               className="w-full lg:w-1/4"
             >
-              <p className="mb-2 text-sm text-neutral-400">{experience.year}</p>
+              <p className="mb-2 text-sm text-gray-400">{experience.year}</p>
             </motion.div>
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
@@ -29,11 +29,11 @@ const Experience = () => {
               transition={{ duration: 1 }}
               className="w-full max-w-xl lg:w-3/4"
             >
-              <h6 className="mb-2 font-semibold">
+              <h6 className="mb-2 font-semibold text-gray-400">
                 {experience?.role} -
-                <span className="text-sm text-purple-100">{experience?.company}</span>
+                <span className="text-sm text-gray-400">{experience?.company}</span>
               </h6>
-              <p className="mb-4 text-neutral-400">{experience?.description}</p>
+              <p className="mb-4 text-neutral-300">{experience?.description}</p>
             </motion.div>
           </div>
         ))}

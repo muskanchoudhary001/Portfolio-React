@@ -29,7 +29,7 @@ const Hero = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.7, delay: 0.2 }}
-              className="mx-auto max-w-[700px] text-gray-300 md:text-xl"
+              className="mx-auto max-w-[700px] text-gray-400 md:text-xl"
             >
               {HERO_CONTENT}
             </motion.p>
