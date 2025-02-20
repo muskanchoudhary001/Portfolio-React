@@ -12,20 +12,19 @@ export const ABOUT_TEXT = `I am a dedicated and versatile frontend developer wit
 
 export const EXPERIENCES = [
   {
-    year: "Oct 2024 - present ",
-    role: "Frontend Developer Intern",
-    company: "Android Engineers",
-    description: `Gained hands-on experience with Next.js, Tailwind CSS, and Vercel while developing UI components and designing pages for a live website during an internship. Quickly adapted to Next.js, enhancing skills in server-side rendering and modern frontend workflows.`,
-    technologies: ["React.js", "Next.js", "Tailwind CSS", "Vercel", "GitHub"],
-  },
-  {
     year: "Jan 2025 - Feb 2025",
     role: "Web Development Intern",
     company: "Brainwave Matrix Solutions",
     description: `Completed two small-scale projects utilizing HTML, CSS, and JavaScript, gaining hands-on experience in web development.`,
     technologies: ["HTML", "CSS", "JavaScript"],
   },
-  
+  {
+    year: "Oct 2024 - Jan 2025",
+    role: "Frontend Developer Intern",
+    company: "Android Engineers",
+    description: `Gained hands-on experience with Next.js, Tailwind CSS, and Vercel while developing UI components and designing pages for a live website during an internship. Quickly adapted to Next.js, enhancing skills in server-side rendering and modern frontend workflows.`,
+    technologies: ["React.js", "Next.js", "Tailwind CSS", "Vercel", "GitHub"],
+  },
   {
     year: "Sept 2023 - Jan 2024",
     role: "Intern Ecommerce Developer",
