@@ -42,7 +42,7 @@ export const PROJECTS = [
       "A movie suggestion app using React.js, TMDB API, and Appwrite for tracking popular searches. Implemented debounced search, designed an intuitive UI with Tailwind CSS, and deployed on Vercel.",
     technologies: ["React.js", "TMDB API", "Appwrite", "Tailwind CSS"],
     github: "https://github.com/muskanchoudhary001/Chitrakatha",
-    link: "https://chitrakatha-movieapp.vercel.app/",
+    link: "https://chitrakatha.vercel.app/",
   },
   {
     title: "Portfolio Website",
