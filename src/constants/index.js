@@ -4,7 +4,7 @@ import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.jpg";
 import project6 from "../assets/projects/project-6.png";
-import project7 from "../assets/projects/chitrakatha.jpg"; // Add an image for Chitrakatha
+import project7 from "../assets/projects/project-7.png"; // Add an image for Chitrakatha
 
 export const HERO_CONTENT = `Welcome to my portfolio! I'm a passionate Frontend Developer with experience in Next.js, React, and modern web technologies.`;
 
